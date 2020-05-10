@@ -18,7 +18,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),lilac)
 include $(CLEAR_VARS)
-LOCAL_MODULE := SemcCameraUI-xhdpi-release
+LOCAL_MODULE := SemcCameraUI-xxhdpi-release
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/priv-app/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := platform
