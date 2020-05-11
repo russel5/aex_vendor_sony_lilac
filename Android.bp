@@ -210,6 +210,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "com.qualcomm.location",
+	owner: "sony",
+	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "dpmserviceapp",
 	owner: "sony",
 	apk: "proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk",
