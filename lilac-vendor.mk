@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/bin/cacaoserver:system/bin/cacaoserver \
     vendor/sony/lilac/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/sony/lilac/proprietary/bin/mssconfig:system/bin/mssconfig \
-    vendor/sony/lilac/proprietary/bin/perfservice:system/bin/perfservice \
     vendor/sony/lilac/proprietary/bin/sony-modem-switcher:system/bin/sony-modem-switcher \
     vendor/sony/lilac/proprietary/bin/ssr_dumper:system/bin/ssr_dumper \
     vendor/sony/lilac/proprietary/bin/startup-logger:system/bin/startup-logger \
@@ -261,7 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/etc/init/cacaoserver.rc:system/etc/init/cacaoserver.rc \
     vendor/sony/lilac/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/sony/lilac/proprietary/etc/init/mssconfig.rc:system/etc/init/mssconfig.rc \
-    vendor/sony/lilac/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
     vendor/sony/lilac/proprietary/etc/init/startup-logger.rc:system/etc/init/startup-logger.rc \
     vendor/sony/lilac/proprietary/etc/init/taimport.rc:system/etc/init/taimport.rc \
     vendor/sony/lilac/proprietary/etc/init/updatemiscta.rc:system/etc/init/updatemiscta.rc \
@@ -367,10 +365,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/sony/lilac/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/sony/lilac/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
-    vendor/sony/lilac/proprietary/lib/libqti-iopd-client_system.so:system/lib/libqti-iopd-client_system.so \
-    vendor/sony/lilac/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
-    vendor/sony/lilac/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so \
-    vendor/sony/lilac/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/sony/lilac/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/sony/lilac/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/sony/lilac/proprietary/lib/libsdsprpc_system.so:system/lib/libsdsprpc_system.so \
@@ -414,9 +408,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:system/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/sony/lilac/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/sony/lilac/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
-    vendor/sony/lilac/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
-    vendor/sony/lilac/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
-    vendor/sony/lilac/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/sony/lilac/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/sony/lilac/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/sony/lilac/proprietary/lib/vendor.qti.hardware.radio.am@1.0.so:system/lib/vendor.qti.hardware.radio.am@1.0.so \
@@ -496,10 +487,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/sony/lilac/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
     vendor/sony/lilac/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
-    vendor/sony/lilac/proprietary/lib64/libqti-iopd-client_system.so:system/lib64/libqti-iopd-client_system.so \
-    vendor/sony/lilac/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
-    vendor/sony/lilac/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so \
-    vendor/sony/lilac/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/sony/lilac/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/sony/lilac/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/sony/lilac/proprietary/lib64/libsdsprpc_system.so:system/lib64/libsdsprpc_system.so \
@@ -528,9 +515,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:system/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/sony/lilac/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/sony/lilac/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
-    vendor/sony/lilac/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
-    vendor/sony/lilac/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
-    vendor/sony/lilac/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/sony/lilac/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/sony/lilac/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/sony/lilac/proprietary/lib64/vendor.qti.hardware.radio.am@1.0.so:system/lib64/vendor.qti.hardware.radio.am@1.0.so \
