@@ -1174,7 +1174,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/vendor/lib/hw/camera.lilac.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.lilac.so \
     vendor/sony/lilac/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/sony/lilac/proprietary/vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
-	vendor/sony/lilac/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
+    vendor/sony/lilac/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     vendor/sony/lilac/proprietary/vendor/lib/hw/gralloc.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8998.so \
     vendor/sony/lilac/proprietary/vendor/lib/hw/lights.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.default.so \
     vendor/sony/lilac/proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8998.so \
